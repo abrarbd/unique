@@ -35,7 +35,8 @@ ul li{
 }
 .main-menu{}
 .main-menu .bg-light{
-	background: transparent !important;
+	background: #fff!important;
+	box-shadow: 0px 0px 1px #ccc;
 }
 .main-menu .navbar-brand img{
 	width:100px;
@@ -51,18 +52,20 @@ ul li{
 	color:#511de5 !important;
 	background: url('../images/line.png') bottom center no-repeat;
 	background-size: content;
-	
 }
 .main-menu .btn-try {
 	font-size: 16px;
 	color:#fff !important;
 	font-weight: 600;
-	padding: 16px 60px;
+	padding: 6px 40px;
 	border-radius: 35px;
 	background: linear-gradient(to right, #511de5, #0c8bfb);
 }
 .main-menu .btn-try:hover{
 	background: linear-gradient(to right, #0c8bfb, #511de5 );
+}
+.sticky-wrapper .is-sticky .navbar{
+	background: white !important;
 }
 .hero{
 	width:100%;
@@ -418,3 +421,60 @@ ul li{
 	color:#676767;
 }
 /*======= Inspirational CSS End =======*/
+/*======= Faq CSS Start =======*/
+.faq-section{
+	width:100%;
+	box-shadow: 0px 0px 10px #ccc;
+	background: #fff;
+	padding: 80px;
+	position: relative;
+}
+
+
+.inner-faq{
+	width:100%;
+	padding:80px;
+}
+.inner-faq h2{
+	font-size: 72px;
+	line-height: 78px;
+	font-weight: 900;
+	color:#000;
+	text-align: center;
+}
+
+/*======= Faq CSS End =======*/
+/*======= Footer CSS Start =======*/
+.footer-section{
+	width:100%;
+	background: url(../images/footerbg.png) center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+}
+.f-menu{
+	width:100%;
+	padding: 40px 0;
+}
+.f-menu ul{
+	display: flex;
+}
+.f-menu ul li{
+	margin-right: 20px;
+}
+.f-menu ul li a{
+	font-size: 16px;
+	color:#fff;
+	font-weight: 900;
+}
+.f-text{
+	width:100%;
+}
+.f-text h6{
+	font-size: 20px;
+	font-weight: 900;
+	color:#fff;
+	text-align: right;
+	padding: 40px 0;
+}
+}
+/*======= Footer CSS End =======*/
